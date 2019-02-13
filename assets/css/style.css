@@ -7,6 +7,13 @@ h1{
     font-size: 50px;
 }
 
+h5 {
+    text-align: center;
+    background-color: rgba(190, 6, 123, 0.502);
+    border: 4px dotted white;
+    border-radius: 10px;
+}
+
 .jumbotron{
     background-image: url("../images/gem.jpg");
     background-color: #082730;
@@ -14,7 +21,8 @@ h1{
     height: 360px;
     width: 639px;
     font-family: 'Spicy Rice', cursive;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 20px;
     border: 3px solid black;
     padding: 200px 5px 80px 5px;
     color: white;
@@ -24,9 +32,7 @@ h1{
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);  
-
-    
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.9);  
 }
 
 .crystal:hover{
