@@ -1,0 +1,74 @@
+body {
+    background-image: url("../images/pinkBackground.jpg");
+    background-color: rgb(128, 0, 60);
+}
+
+h1{
+    font-size: 50px;
+}
+
+.jumbotron{
+    background-image: url("../images/gem.jpg");
+    background-color: #082730;
+    text-align: left;
+    height: 360px;
+    width: 639px;
+    font-family: 'Spicy Rice', cursive;
+    margin: auto;
+    border: 3px solid black;
+    padding: 200px 5px 80px 5px;
+    color: white;
+    text-shadow: color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);  
+
+    
+}
+
+.crystal:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.crystals{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+.crystal{
+    border:1px solid black;
+    height:200px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    width: 50px;
+}
+
+p{
+color: white;
+text-align: right;
+font-family: 'Spicy Rice', cursive;
+font-size: 50px;
+padding: 0px 50px 0px 0px;
+text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
